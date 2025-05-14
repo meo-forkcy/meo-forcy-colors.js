@@ -247,7 +247,7 @@ console.log(colors.gradient('Random Gradient!'));
 * Accepts an array of ANSI 256 color codes.
 * If no colors are provided, a random gradient will be applied.
 
-🔧 **Tip:** You can preview ANSI 256 colors using `printANSI256ColorTable()` from the examples/ansi256-colors.js script or visit
+🔧 **Tip:** You can preview ANSI 256 colors using `examples/ansi256-colors.js` or visit
 [Wikipedia: ANSI Escape Codes](https://en.wikipedia.org/wiki/ANSI_escape_code#8-bit).
 
 ![ansi256-colors](https://raw.githubusercontent.com/meo-forkcy/meo-forkcy-colors.js/master/screenshots/ansi256-colors.png)

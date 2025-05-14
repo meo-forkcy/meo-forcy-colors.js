@@ -1,3 +1,6 @@
+⚠️ This is a **custom fork** of [`colors`](https://github.com/Marak/colors.js) by [Marak Squires](https://github.com/Marak).  
+Modified and maintained by [meo-forkcy](https://github.com/meo-forkcy) for educational and non-commercial use.
+
 # colors.js
 [![Build Status](https://travis-ci.org/Marak/colors.js.svg?branch=master)](https://travis-ci.org/Marak/colors.js)
 [![version](https://img.shields.io/npm/v/colors.svg)](https://www.npmjs.org/package/colors)

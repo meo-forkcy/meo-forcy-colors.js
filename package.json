@@ -2,7 +2,7 @@
   "name": "meo-forkcy-colors",
   "description": "A custom fork of the original 'colors' library by Marak Squires for Node.js console colors",
   "version": "1.0.0",
-  "author": "meo-forky <your-email-or-url>",
+  "author": "meo-forkcy",
   "contributors": [
     {
       "name": "Marak Squires (original author)",
@@ -13,9 +13,9 @@
       "url": "https://github.com/DABH"
     }
   ],
-  "homepage": "https://github.com/meo-forky/meo-forkcy-colors",
+  "homepage": "https://github.com/meo-forkcy/meo-forkcy-colors",
   "bugs": {
-    "url": "https://github.com/meo-forky/meo-forkcy-colors/issues"
+    "url": "https://github.com/meo-forkcy/meo-forkcy-colors/issues"
   },
   "keywords": [
     "ansi",
@@ -27,7 +27,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/meo-forky/meo-forkcy-colors.git"
+    "url": "https://github.com/meo-forkcy/meo-forkcy-colors.git"
   },
   "license": "MIT",
   "scripts": {

@@ -4,11 +4,11 @@ Here we describe upcoming and recent releases and the key features/fixes they in
 
 ## Currently Planned Releases
 
-### 1.5.0
- * Support custom colors
+### ~~1.5.0~~
+ * ~~Support custom colors~~
 
-### 1.4.1
- * Refactor tests to use a testing library like jest (only affects dev/testing)
+### ~~1.4.1~~
+ * ~~Refactor tests to use a testing library like jest (only affects dev/testing)~~
 
 ### ~~1.4.0 (9/22/19)~~
  * ~~Allow colorizing null/undefined in safe mode (@givehug, @jweinsteincbt)~~

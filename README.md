@@ -1,7 +1,7 @@
 ⚠️ This is a **custom fork** of [`colors`](https://github.com/Marak/colors.js) by [Marak Squires](https://github.com/Marak).  
 Modified and maintained by [meo-forkcy](https://github.com/meo-forkcy) for educational and non-commercial use.
 
-# colors.js
+# meo-forkcy-colors.js
 [![version](https://img.shields.io/npm/v/colors.svg)](https://www.npmjs.org/package/colors)
 
 Please check out the [roadmap](ROADMAP.md) for upcoming features and releases.  Please open Issues to provide feedback, and check the `develop` branch for the latest bleeding-edge updates.

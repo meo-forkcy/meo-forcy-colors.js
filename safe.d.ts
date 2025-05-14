@@ -22,6 +22,18 @@ export function white(str: string): string;
 export function gray(str: string): string;
 export function grey(str: string): string;
 
+export function orange(str: string): string;
+export function lime(str: string): string;
+export function teal(str: string): string;
+export function skyBlue(str: string): string;
+export function pink(str: string): string;
+export function purple(str: string): string;
+
+export function lightGray(str: string): string;
+export function lightBlue(str: string): string;
+export function lightOrange(str: string): string;
+export function lightYellow(str: string): string;
+
 export function bgBlack(str: string): string;
 export function bgRed(str: string): string;
 export function bgGreen(str: string): string;

@@ -28,6 +28,16 @@ Please check out the [roadmap](ROADMAP.md) for upcoming features and releases.  
   - white
   - gray
   - grey
+  - orange
+  - lightOrange
+  - lightYellow
+  - lime   
+  - teal
+  - skyBlue  
+  - lightBlue
+  - pink
+  - purple
+  - lightGray
 
 ### bright text colors
 

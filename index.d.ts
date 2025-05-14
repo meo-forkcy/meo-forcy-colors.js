@@ -4,46 +4,56 @@
 // Definitions: https://github.com/Marak/colors.js
 
 export interface Color {
-    (text: string): string;
+  (text: string): string;
 
-    strip: Color;
-    stripColors: Color;
+  strip: Color;
+  stripColors: Color;
 
-    black: Color;
-    red: Color;
-    green: Color;
-    yellow: Color;
-    blue: Color;
-    magenta: Color;
-    cyan: Color;
-    white: Color;
-    gray: Color;
-    grey: Color;
+  black: Color;
+  red: Color;
+  green: Color;
+  yellow: Color;
+  blue: Color;
+  magenta: Color;
+  cyan: Color;
+  white: Color;
+  gray: Color;
+  grey: Color;
 
-    bgBlack: Color;
-    bgRed: Color;
-    bgGreen: Color;
-    bgYellow: Color;
-    bgBlue: Color;
-    bgMagenta: Color;
-    bgCyan: Color;
-    bgWhite: Color;
+  lime: Color;
+  teal: Color;
+  pink: Color;
+  purple: Color;
+  skyBlue: Color;
+  lightBlue: Color;
+  lightGray: Color;
+  lightOrange: Color;
+  lightYellow: Color;
 
-    reset: Color;
-    bold: Color;
-    dim: Color;
-    italic: Color;
-    underline: Color;
-    inverse: Color;
-    hidden: Color;
-    strikethrough: Color;
+  bgBlack: Color;
+  bgRed: Color;
+  bgGreen: Color;
+  bgYellow: Color;
+  bgBlue: Color;
+  bgMagenta: Color;
+  bgCyan: Color;
+  bgWhite: Color;
 
-    rainbow: Color;
-    zebra: Color;
-    america: Color;
-    trap: Color;
-    random: Color;
-    zalgo: Color;
+  reset: Color;
+  bold: Color;
+  dim: Color;
+  italic: Color;
+  underline: Color;
+  inverse: Color;
+  hidden: Color;
+  strikethrough: Color;
+
+  rainbow: Color;
+  zebra: Color;
+  america: Color;
+  trap: Color;
+  random: Color;
+  zalgo: Color;
 }
 
 export function enable(): void;
@@ -65,6 +75,16 @@ export const cyan: Color;
 export const white: Color;
 export const gray: Color;
 export const grey: Color;
+
+export const lime: Color;
+export const teal: Color;
+export const pink: Color;
+export const purple: Color;
+export const skyBlue: Color;
+export const lightBlue: Color;
+export const lightGray: Color;
+export const lightOrange: Color;
+export const lightYellow: Color;
 
 export const bgBlack: Color;
 export const bgRed: Color;
@@ -92,45 +112,55 @@ export const random: Color;
 export const zalgo: Color;
 
 declare global {
-    interface String {
-        strip: string;
-        stripColors: string;
+  interface String {
+    strip: string;
+    stripColors: string;
 
-        black: string;
-        red: string;
-        green: string;
-        yellow: string;
-        blue: string;
-        magenta: string;
-        cyan: string;
-        white: string;
-        gray: string;
-        grey: string;
+    black: string;
+    red: string;
+    green: string;
+    yellow: string;
+    blue: string;
+    magenta: string;
+    cyan: string;
+    white: string;
+    gray: string;
+    grey: string;
 
-        bgBlack: string;
-        bgRed: string;
-        bgGreen: string;
-        bgYellow: string;
-        bgBlue: string;
-        bgMagenta: string;
-        bgCyan: string;
-        bgWhite: string;
+    lime: string;
+    teal: string;
+    pink: string;
+    purple: string;
+    skyBlue: string;
+    lightBlue: string;
+    lightGray: string;
+    lightOrange: string;
+    lightYellow: string;
 
-        reset: string;
-        // @ts-ignore
-        bold: string;
-        dim: string;
-        italic: string;
-        underline: string;
-        inverse: string;
-        hidden: string;
-        strikethrough: string;
+    bgBlack: string;
+    bgRed: string;
+    bgGreen: string;
+    bgYellow: string;
+    bgBlue: string;
+    bgMagenta: string;
+    bgCyan: string;
+    bgWhite: string;
 
-        rainbow: string;
-        zebra: string;
-        america: string;
-        trap: string;
-        random: string;
-        zalgo: string;
-    }
+    reset: string;
+    // @ts-ignore
+    bold: string;
+    dim: string;
+    italic: string;
+    underline: string;
+    inverse: string;
+    hidden: string;
+    strikethrough: string;
+
+    rainbow: string;
+    zebra: string;
+    america: string;
+    trap: string;
+    random: string;
+    zalgo: string;
+  }
 }

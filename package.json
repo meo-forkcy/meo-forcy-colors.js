@@ -1,7 +1,7 @@
 {
   "name": "meo-forkcy-colors",
   "description": "A custom fork of the original 'colors' library by Marak Squires for Node.js console colors",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "author": "meo-forkcy",
   "contributors": [
     {

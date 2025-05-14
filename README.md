@@ -90,6 +90,7 @@ Please check out the [roadmap](ROADMAP.md) for upcoming features and releases.  
   - america
   - trap
   - random
+  - gradient
 
 
 ## Usage

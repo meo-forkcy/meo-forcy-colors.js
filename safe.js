@@ -6,5 +6,5 @@
 //   colors.red("foo")
 //
 //
-var colors = require('./lib/colors');
-module['exports'] = colors;
+var colors = require("./lib/colors");
+module.exports = colors;

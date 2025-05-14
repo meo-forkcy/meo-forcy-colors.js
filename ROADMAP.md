@@ -4,6 +4,11 @@ Here we describe upcoming and recent releases and the key features/fixes they in
 
 ## Currently Planned Releases
 
+### 1.0.0 (5/14/2025)
+* Added gradient theme
+* Added more colors
+---
+
 ### ~~1.5.0~~
  * ~~Support custom colors~~
 

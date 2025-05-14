@@ -1,170 +1,150 @@
-⚠️ This is a **custom fork** of [`colors`](https://github.com/Marak/colors.js) by [Marak Squires](https://github.com/Marak).  
-Modified and maintained by [meo-forkcy](https://github.com/meo-forkcy) for educational and non-commercial use.
+# ⚡ `meo-forkcy-colors.js`
 
-# meo-forkcy-colors.js
-[![version](https://img.shields.io/npm/v/colors.svg)](https://www.npmjs.org/package/colors)
+> 🧪 A **custom fork** of [`colors`](https://github.com/Marak/colors.js) by [Marak Squires](https://github.com/Marak), maintained by [meo-forkcy](https://github.com/meo-forkcy) for educational and non-commercial use.
 
-Please check out the [roadmap](ROADMAP.md) for upcoming features and releases.  Please open Issues to provide feedback, and check the `develop` branch for the latest bleeding-edge updates.
+[![npm version](https://img.shields.io/npm/v/colors.svg)](https://www.npmjs.org/package/meo-forkcy-colors)
 
-## get color and style in your node.js console
+📍 Check out the [ROADMAP](ROADMAP.md) for upcoming features.
+💬 Feel free to open issues for feedback or contribute via the `develop` branch.
 
-![Demo](https://raw.githubusercontent.com/Marak/colors.js/master/screenshots/colors.png)
+---
 
-## Installation
-
-    npm i meo-forkcy-colors
-
-## colors and styles!
-
-### text colors
-
-  - black
-  - red
-  - green
-  - yellow
-  - blue
-  - magenta
-  - cyan
-  - white
-  - gray
-  - grey
-  - orange
-  - lightOrange
-  - lightYellow
-  - lime   
-  - teal
-  - skyBlue  
-  - lightBlue
-  - pink
-  - purple
-  - lightGray
-
-### bright text colors
-
-  - brightRed
-  - brightGreen
-  - brightYellow
-  - brightBlue
-  - brightMagenta
-  - brightCyan
-  - brightWhite
-
-### background colors
-
-  - bgBlack
-  - bgRed
-  - bgGreen
-  - bgYellow
-  - bgBlue
-  - bgMagenta
-  - bgCyan
-  - bgWhite
-  - bgGray
-  - bgGrey
-
-### bright background colors
-
-  - bgBrightRed
-  - bgBrightGreen
-  - bgBrightYellow
-  - bgBrightBlue
-  - bgBrightMagenta
-  - bgBrightCyan
-  - bgBrightWhite
-
-### styles
-
-  - reset
-  - bold
-  - dim
-  - italic
-  - underline
-  - inverse
-  - hidden
-  - strikethrough
-
-### extras
-
-  - rainbow
-  - zebra
-  - america
-  - trap
-  - random
-  - gradient
-
-
-## Usage
-
-By popular demand, `colors` now ships with two types of usages!
-
-The super nifty way
-
-```js
-var colors = require('colors');
-
-console.log('hello'.green); // outputs green text
-console.log('i like cake and pies'.underline.red); // outputs red underlined text
-console.log('inverse the color'.inverse); // inverses the color
-console.log('OMG Rainbows!'.rainbow); // rainbow
-console.log('Run the trap'.trap); // Drops the bass
-
-```
-
-or a slightly less nifty way which doesn't extend `String.prototype`
-
-```js
-var colors = require('colors/safe');
-
-console.log(colors.green('hello')); // outputs green text
-console.log(colors.red.underline('i like cake and pies')); // outputs red underlined text
-console.log(colors.inverse('inverse the color')); // inverses the color
-console.log(colors.rainbow('OMG Rainbows!')); // rainbow
-console.log(colors.trap('Run the trap')); // Drops the bass
-
-```
-
-I prefer the first way. Some people seem to be afraid of extending `String.prototype` and prefer the second way. 
-
-If you are writing good code you will never have an issue with the first approach. If you really don't want to touch `String.prototype`, the second usage will not touch `String` native object.
-
-## Enabling/Disabling Colors
-
-The package will auto-detect whether your terminal can use colors and enable/disable accordingly. When colors are disabled, the color functions do nothing. You can override this with a command-line flag:
+## 📦 Installation
 
 ```bash
-node myapp.js --no-color
-node myapp.js --color=false
-
-node myapp.js --color
-node myapp.js --color=true
-node myapp.js --color=always
-
-FORCE_COLOR=1 node myapp.js
+npm i meo-forkcy-colors
 ```
 
-Or in code:
+---
 
-```javascript
-var colors = require('colors');
+## 🎨 Features
+
+### ✅ Text Colors
+
+```
+black, red, green, yellow, blue, magenta, cyan, white, gray/grey
+orange, lightOrange, lightYellow, lime, teal, skyBlue, lightBlue, pink, purple, lightGray
+```
+
+### 🌟 Bright Text Colors
+
+```
+brightRed, brightGreen, brightYellow, brightBlue, brightMagenta, brightCyan, brightWhite
+```
+
+### 🎨 Background Colors
+
+```
+bgBlack, bgRed, bgGreen, bgYellow, bgBlue, bgMagenta, bgCyan, bgWhite, bgGray/bgGrey
+```
+
+### 💡 Bright Background Colors
+
+```
+bgBrightRed, bgBrightGreen, bgBrightYellow, bgBrightBlue, bgBrightMagenta, bgBrightCyan, bgBrightWhite
+```
+
+### ✨ Styles
+
+```
+reset, bold, dim, italic, underline, inverse, hidden, strikethrough
+```
+
+### 🌈 Extras
+
+```
+rainbow, zebra, america, trap, random, gradient
+```
+
+---
+
+## 🚀 Usage
+
+### 1. Extend `String.prototype`
+
+```js
+const colors = require('colors');
+
+console.log('hello'.green);
+console.log('i like cake'.underline.red);
+console.log('inverse'.inverse);
+console.log('OMG Rainbows!'.rainbow);
+console.log('Trap music!'.trap);
+```
+
+### 2. Safe Mode (no prototype pollution)
+
+```js
+const colors = require('colors/safe');
+
+console.log(colors.green('hello'));
+console.log(colors.red.underline('i like cake'));
+console.log(colors.inverse('inverse'));
+console.log(colors.rainbow('OMG Rainbows!'));
+console.log(colors.trap('Trap music!'));
+```
+
+---
+
+## 🔧 Enable/Disable Colors
+
+### CLI Flags
+
+```bash
+node app.js --no-color
+node app.js --color=false
+node app.js --color
+node app.js --color=always
+
+# or using environment variable
+FORCE_COLOR=1 node app.js
+```
+
+### In Code
+
+```js
 colors.enable();
 colors.disable();
 ```
 
-## Console.log [string substitution](http://nodejs.org/docs/latest/api/console.html#console_console_log_data)
+---
+
+## 📜 String Substitution
 
 ```js
-var name = 'Marak';
+const name = 'Marak';
 console.log(colors.green('Hello %s'), name);
-// outputs -> 'Hello Marak'
+// -> Hello Marak
 ```
 
-## Custom themes
+---
 
-### Using standard API
+## 🎯 Custom Themes
+
+### Standard API
 
 ```js
+colors.setTheme({
+  silly: 'rainbow',
+  input: 'grey',
+  verbose: 'cyan',
+  prompt: 'grey',
+  info: 'green',
+  data: 'grey',
+  help: 'cyan',
+  warn: 'yellow',
+  debug: 'blue',
+  error: 'red',
+});
 
-var colors = require('colors');
+console.log('this is an error'.error);
+console.log('this is a warning'.warn);
+```
+
+### Safe API
+
+```js
+const colors = require('colors/safe');
 
 colors.setTheme({
   silly: 'rainbow',
@@ -176,81 +156,42 @@ colors.setTheme({
   help: 'cyan',
   warn: 'yellow',
   debug: 'blue',
-  error: 'red'
+  error: 'red',
 });
 
-// outputs red text
-console.log("this is an error".error);
-
-// outputs yellow text
-console.log("this is a warning".warn);
+console.log(colors.error('this is an error'));
+console.log(colors.warn('this is a warning'));
 ```
 
-### Using string safe API
+---
+
+## 🎨 Combining Styles
 
 ```js
-var colors = require('colors/safe');
-
-// set single property
-var error = colors.red;
-error('this is red');
-
-// set theme
 colors.setTheme({
-  silly: 'rainbow',
-  input: 'grey',
-  verbose: 'cyan',
-  prompt: 'grey',
-  info: 'green',
-  data: 'grey',
-  help: 'cyan',
-  warn: 'yellow',
-  debug: 'blue',
-  error: 'red'
+  custom: ['red', 'underline'],
 });
 
-// outputs red text
-console.log(colors.error("this is an error"));
-
-// outputs yellow text
-console.log(colors.warn("this is a warning"));
-
+console.log('styled text'.custom);
 ```
 
-### Combining Colors
+---
 
-```javascript
-var colors = require('colors');
-
-colors.setTheme({
-  custom: ['red', 'underline']
-});
-
-console.log('test'.custom);
-```
-
-### gradient
-
-Apply a smooth color transition to your text using ANSI 256-color gradients.
+## 🌈 Gradient Text
 
 ```js
-var colors = require('colors');
-
-// custom gradient (sunset-like)
+// Custom gradient
 console.log(colors.gradient('Sunset!', [196, 202, 208, 214, 220, 226]));
 
-// random preset gradient
+// Random preset
 console.log(colors.gradient('Random Gradient!'));
 ```
 
-* Works in both chained and safe mode.
-* Accepts an array of ANSI 256 color codes.
-* If no colors are provided, a random gradient will be applied.
+🖼 Preview ANSI 256 Colors:
+Check `examples/ansi256-colors.js` or
+🔗 [Wikipedia: ANSI Escape Codes](https://en.wikipedia.org/wiki/ANSI_escape_code#8-bit)
 
-🔧 **Tip:** You can preview ANSI 256 colors using `examples/ansi256-colors.js` or visit
-[Wikipedia: ANSI Escape Codes](https://en.wikipedia.org/wiki/ANSI_escape_code#8-bit).
-
-![ansi256-colors](https://raw.githubusercontent.com/meo-forkcy/meo-forkcy-colors.js/master/screenshots/ansi256-colors.png)
 ---
 
-*Protip: There is a secret undocumented style in `colors`. If you find the style you can summon him.*
+> 🕵️ **Protip:** There’s a hidden undocumented style.
+> If you find it, **you can summon him**...

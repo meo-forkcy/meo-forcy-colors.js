@@ -13,9 +13,9 @@
       "url": "https://github.com/DABH"
     }
   ],
-  "homepage": "https://github.com/meo-forkcy/meo-forkcy-colors",
+  "homepage": "https://github.com/meo-forkcy/meo-forkcy-colors.js",
   "bugs": {
-    "url": "https://github.com/meo-forkcy/meo-forkcy-colors/issues"
+    "url": "https://github.com/meo-forkcy/meo-forkcy-colors.js/issues"
   },
   "keywords": [
     "ansi",
@@ -27,7 +27,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/meo-forkcy/meo-forkcy-colors.git"
+    "url": "https://github.com/meo-forkcy/meo-forkcy-colors.js.git"
   },
   "license": "MIT",
   "scripts": {

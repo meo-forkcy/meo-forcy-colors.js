@@ -1,45 +1,54 @@
 {
-    "name": "colors",
-    "description": "get colors in your node.js console",
-    "version": "1.4.44-liberty-2",
-    "author": "Marak Squires",
-    "contributors": [
-        {
-            "name": "DABH",
-            "url": "https://github.com/DABH"
-        }
-    ],
-    "homepage": "https://github.com/Marak/colors.js",
-    "bugs": "https://github.com/Marak/colors.js/issues",
-    "keywords": [
-        "ansi",
-        "terminal",
-        "colors"
-    ],
-    "repository": {
-        "type": "git",
-        "url": "http://github.com/Marak/colors.js.git"
+  "name": "meo-forkcy-colors",
+  "description": "A custom fork of the original 'colors' library by Marak Squires for Node.js console colors",
+  "version": "1.0.0",
+  "author": "meo-forky <your-email-or-url>",
+  "contributors": [
+    {
+      "name": "Marak Squires (original author)",
+      "url": "https://github.com/Marak"
     },
-    "license": "MIT",
-    "scripts": {
-        "lint": "eslint . --fix",
-        "test": "node tests/basic-test.js && node tests/safe-test.js"
-    },
-    "engines": {
-        "node": ">=0.1.90"
-    },
-    "main": "lib/index.js",
-    "files": [
-        "examples",
-        "lib",
-        "LICENSE",
-        "safe.js",
-        "themes",
-        "index.d.ts",
-        "safe.d.ts"
-    ],
-    "devDependencies": {
-        "eslint": "^5.2.0",
-        "eslint-config-google": "^0.11.0"
+    {
+      "name": "DABH",
+      "url": "https://github.com/DABH"
     }
+  ],
+  "homepage": "https://github.com/meo-forky/meo-forkcy-colors",
+  "bugs": {
+    "url": "https://github.com/meo-forky/meo-forkcy-colors/issues"
+  },
+  "keywords": [
+    "ansi",
+    "terminal",
+    "colors",
+    "fork",
+    "console",
+    "meo"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/meo-forky/meo-forkcy-colors.git"
+  },
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint . --fix",
+    "test": "node tests/basic-test.js && node tests/safe-test.js"
+  },
+  "engines": {
+    "node": ">=0.1.90"
+  },
+  "main": "lib/index.js",
+  "files": [
+    "examples",
+    "lib",
+    "LICENSE",
+    "safe.js",
+    "themes",
+    "index.d.ts",
+    "safe.d.ts"
+  ],
+  "devDependencies": {
+    "eslint": "^5.2.0",
+    "eslint-config-google": "^0.11.0"
+  }
 }

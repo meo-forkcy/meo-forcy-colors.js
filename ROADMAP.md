@@ -4,6 +4,10 @@ Here we describe upcoming and recent releases and the key features/fixes they in
 
 ## Currently Planned Releases
 
+### 1.0.5 (5/14/2025)
+
+- Change README with modern style
+
 ### 1.0.4 (5/14/2025)
 
 - Refactor code and add more function for colors

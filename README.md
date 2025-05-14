@@ -229,4 +229,27 @@ colors.setTheme({
 console.log('test'.custom);
 ```
 
+### gradient
+
+Apply a smooth color transition to your text using ANSI 256-color gradients.
+
+```js
+var colors = require('colors');
+
+// custom gradient (sunset-like)
+console.log(colors.gradient('Sunset!', [196, 202, 208, 214, 220, 226]));
+
+// random preset gradient
+console.log(colors.gradient('Random Gradient!'));
+```
+
+* Works in both chained and safe mode.
+* Accepts an array of ANSI 256 color codes.
+* If no colors are provided, a random gradient will be applied.
+
+🔧 **Tip:** You can preview ANSI 256 colors using `printANSI256ColorTable()` from the example script or visit
+[Wikipedia: ANSI Escape Codes](https://en.wikipedia.org/wiki/ANSI_escape_code#8-bit).
+
+---
+
 *Protip: There is a secret undocumented style in `colors`. If you find the style you can summon him.*

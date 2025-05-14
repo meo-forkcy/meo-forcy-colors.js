@@ -13,7 +13,7 @@ Please check out the [roadmap](ROADMAP.md) for upcoming features and releases.  
 
 ## Installation
 
-    npm install colors
+    npm i meo-forkcy-colors
 
 ## colors and styles!
 

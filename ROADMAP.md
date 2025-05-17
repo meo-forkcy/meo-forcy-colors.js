@@ -4,6 +4,10 @@ Here we describe upcoming and recent releases and the key features/fixes they in
 
 ## Currently Planned Releases
 
+### 1.0.7 (18/5/2025)
+
+- Added some jsdocstring and comment. (Read full in commit history)
+
 ### 1.0.5 (5/14/2025)
 
 - Change README with modern style

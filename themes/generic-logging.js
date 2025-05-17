@@ -9,4 +9,6 @@ module.exports = {
   warn: "yellow",
   debug: "blue",
   error: "red",
+  link: "grey",
+  love: "pink"
 };

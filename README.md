@@ -135,6 +135,8 @@ colors.setTheme({
   warn: 'yellow',
   debug: 'blue',
   error: 'red',
+  link: 'grey',
+  love: 'pink'
 });
 
 console.log('this is an error'.error);
@@ -157,6 +159,8 @@ colors.setTheme({
   warn: 'yellow',
   debug: 'blue',
   error: 'red',
+  link: 'grey',
+  love: 'pink'
 });
 
 console.log(colors.error('this is an error'));

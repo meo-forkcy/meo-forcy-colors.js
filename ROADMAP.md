@@ -4,6 +4,10 @@ Here we describe upcoming and recent releases and the key features/fixes they in
 
 ## Currently Planned Releases
 
+### 1.0.9 (27/5/2025)
+
+- Added orange color
+
 ### 1.0.8 (18/5/2025)
 
 - Add more example in README.MD

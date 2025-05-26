@@ -25,6 +25,7 @@ export interface Color {
   teal: Color;
   pink: Color;
   purple: Color;
+  orange: Color;
   skyBlue: Color;
   lightBlue: Color;
   lightGray: Color;
@@ -81,6 +82,7 @@ export const lime: Color;
 export const teal: Color;
 export const pink: Color;
 export const purple: Color;
+export const orange: Color;
 export const skyBlue: Color;
 export const lightBlue: Color;
 export const lightGray: Color;
@@ -132,6 +134,7 @@ declare global {
     teal: string;
     pink: string;
     purple: string;
+    orange: string;
     skyBlue: string;
     lightBlue: string;
     lightGray: string;
